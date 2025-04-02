@@ -1,0 +1,37 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    /* background-image: url(../static/img/gears_of_war_hd_1080p.jpg); */
+}
+a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: black;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu img{
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+}
+nav a{
+    font-weight: 800;
+    padding: 20px;
+}
+nav a:hover{
+    transition: 0.8s;
+    margin: 10px;
+    color: blue;
+}
+img{
+    width: 1466px;
+}
